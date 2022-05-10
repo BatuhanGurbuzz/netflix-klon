@@ -1,0 +1,319 @@
+@import url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff2);
+@import url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Netflix sans', sans-serif;
+    background: url('img/5.jpg') no-repeat;
+    background-size: contain;
+}
+
+.container{
+    width: 100%;
+}
+.border-bottom{
+    border-bottom: 10px solid #222222;
+}
+
+.btn-red_two{
+    background-color: #E50914;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    height: 45px;
+    margin:0;
+}
+
+.btn-red_two i{
+    margin: 5px;
+}
+
+.btn-red_two:hover{
+    background-color: #f6232d;
+}
+
+
+/* header start */
+
+header{
+    height: 70px;
+    padding: 1.5rem;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.main-nav .logo a{
+    color: #E50914;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.main-nav .menu .tr{
+    border: 1px solid #fff;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
+
+.main-nav .menu .tr .fa-solid{
+    padding-right:  5px; 
+}
+
+.menu .btn-red{
+    background-color: #E50914;
+    color: #fff;
+    border: 1px solid #E50914;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* header end */
+#content-a{
+    text-align: center;
+    padding:150px 0 6rem 0;
+    color: #fff;
+
+}
+
+#content-a .box-a{
+    width: 80%;
+    margin: auto;
+}
+
+#content-a .text-a h1{
+    font-size: 3.5rem;
+}
+
+#content-a .text-a p{
+    font-size: 1.5rem;
+}
+
+form .mt{
+    font-size: 1rem;
+    margin:1rem 0;
+}
+
+form input{
+    width: 30em;
+    height: 3rem;
+    border-radius: 5px;
+}
+
+form .btn{
+    background-color:#E50914;
+    color: #fff;
+    padding: .8rem;
+    border-radius: 5px;
+    height: 3rem;
+    margin: 0;
+    transition: all .25s;
+}
+
+form .btn:hover{
+    background-color: #f6232d;
+}
+/* content a end */
+
+/* content b ve c */
+#content-b, #content-c{
+    background-color: #000;
+    color: #fff;
+}
+
+.box-b{
+    width: 100%;
+    margin: auto;
+    border-top: 10px solid #222222;
+}
+
+.box-c{
+    width: 100%;
+    margin: auto;
+}
+
+#content-b .box-b, .box-c{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+
+#content-b .box-b .text-b, #content-c .box-c .text-c{
+    text-align: center;
+}
+
+.box-b .text-b h1, .box-c .text-c h1{
+    font-size: 2rem;
+}
+
+.box-b .text-b p, .box-c .text-c p{
+    font-size: 1rem;
+}
+
+.box-b .img-a img{
+    height: 400px;
+}
+/* section d ve e */
+#content-d, #content-e{
+    background-color: #000;
+    color: #fff;
+}
+
+.box-d{
+    width: 100%;
+    margin: auto;
+}
+
+.box-e{
+    width: 100%;
+    margin: auto;
+}
+
+#content-d .box-d,#content-e .box-e{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+
+#content-d .box-d .text-d, #content-e .box-e .text-e{
+    text-align: center;
+}
+
+.box-d .text-d h1, .box-c .box-e .text-e h1{
+    font-size: 2rem;
+}
+
+.box-d .text-d p,.box-e .text-e p{
+    font-size: 1rem;
+}
+
+.box-d .img-a img, .box-e .img-a img{
+    height: 400px;
+}
+/* section d ve e end */
+
+/* Sıkça sorulan sorular */
+#questions .main__questions{
+    width: 100%;
+    max-width: 1500px;
+    background-color: #000;
+}
+
+#questions .main__questions h1{
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+
+#questions .main__questions__items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+#questions .main__questions__items li a{
+    color: #fff;
+    background-color: #303030;
+    margin: 3px;
+    padding: 10px 10px;
+    display: inline-block;
+    width: 600px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#questions form{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    padding: 24px;
+}
+
+#questions form h3{
+    font-size: 1.2rem;
+}
+
+/* footer */
+#main-footer{
+    background-color: #000;
+    color: #757575;
+    font-size: 12px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+#main-footer .footer-container{
+    padding: 70px 45px;
+}
+
+.footer-container p a{
+    color: #757575;
+}
+
+.footer-container .main-footer__items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.footer-container ul{
+    list-style: none;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-container ul li a{
+    color: #757575;
+}
+
+.footer-container .turkish{
+    padding-top: 10px;
+}
+
+.footer-container .turkish a{
+    color: #8c8c8c;
+    border: 1px solid #303030;
+    padding: 10px 10px;
+}
+
+.footer-container .turkish a{
+    color: #8c8c8c;
+    font-size: 15px;
+    border: 1px solid #303030;
+    padding: 15px 10px;
+}
+
+.footer-container .turkish a i{
+    padding: 10px;
+}
+
+.footer-container .netflix{
+    padding-top: 30px;
+}
+
+.footer-container ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-container p a:hover{
+    text-decoration: underline;
+}
+
+
